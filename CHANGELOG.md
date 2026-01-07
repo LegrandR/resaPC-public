@@ -18,3 +18,8 @@
   - Correction du bug #7 lié à la fonction "annuler"
   - Ajout d'un système de notes plus complet associés aux créneaux
   - Ajout d'un système de messagerie entre utilisateur et administrateur associés aux tickets.
+   
+   ## v0.3.0beta : 2026-01-06
+  - Modification de l'UI "Gestion des activités" pour permettre une présaisie du nombres d'élèves et du type de salle en fonction de l'activité.
+  - Création de deux nouveaux rôles "laboratoire" et "Gestionnaire".
+  - Modification du mode "lock" : un nouveau bouton apparait sur les comptes éditeur pour verrouiller l'édition des autres comptes éditeurs.
