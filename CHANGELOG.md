@@ -23,3 +23,17 @@
   - Modification de l'UI "Gestion des activités" pour permettre une présaisie du nombres d'élèves et du type de salle en fonction de l'activité.
   - Création de deux nouveaux rôles "laboratoire" et "Gestionnaire".
   - Modification du mode "lock" : un nouveau bouton apparait sur les comptes éditeur pour verrouiller l'édition des autres comptes éditeurs.
+  - Modification raccourci administrateur : un bug renvoyait vers les tickets personnels au lieu de l'interface de gestion des tickets.
+  
+   ## v0.4.0beta : 2026-01-07
+  - Bug fix : un créneau déjà placé par un administrateur n'est pas replacé de nouveau quand on lance le placement automatique. Seuls les créneaux issues de la zone de demandes sont placés automatiquement.
+  - Ajout d'un menu sous le clic droit : placer ce créneau, permettant un placement automatique du créneau concerné.
+  - Placement "Auto" place automatiquement les créneaux sous conflit (rouge), les créneaux sous demande de modification (violet) et les créneaux de la zone "demandes".
+  - Ajout d'une logique d'épinglage pour interdire le placement automatique et le déplacement de créneau (fonctionne pour tout type de créneau. Ils sont ignorés de la fonction placement automatique et ne peuvent pas être déplacé par cette dernière).
+  
+  ## v0.5.0beta : 2026-01-16
+  - Reprise du planning pour restructuration compléte : implémentation du planning générale V2
+  
+  ## v0.6.0beta : 2026-01-22
+  - Réécriture de la database pour utiliser une logique multiétablissement
+  - utilisation généralisé de wrapper sur les appels DB pour assurer l'utilisation d'un filtre établissement relatif à l'utilisateur
