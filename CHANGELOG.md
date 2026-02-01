@@ -37,3 +37,20 @@
   ## v0.6.0beta : 2026-01-22
   - Réécriture de la database pour utiliser une logique multiétablissement
   - utilisation généralisé de wrapper sur les appels DB pour assurer l'utilisation d'un filtre établissement relatif à l'utilisateur
+  
+  ## v0.7.0beta : 2026-01-26
+  - Modification du système d'inscription et de promotion des administrateurs
+  - Ajout d'utilisateur virtuel
+  
+  ## v0.8.0beta : 2026-01-26
+  - Refonte du système d'importation : utilisation directe de PDF ou ICS dans l'application.
+  
+  ## v0.9.0beta : 2026-01-29
+  - Audit de securité et amélioration du code vis à vis de la sécurité de l'application
+  - Ajout pepper dans l'encodage des mots de passe.
+  
+  ## v0.10.0beta : 2026-01-31
+  - Audit de performance et amélioration des performances generales de l'application : refactorisation et modification des queries.
+  
+  ## v0.11.0beta : 2026-02-01
+  - Ajout outils de monitoring et logging.
