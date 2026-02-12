@@ -2,6 +2,7 @@ name: 🐛 Bug Report
 description: Signaler un bug
 title: "[BUG] "
 labels: [bug]
+
 body:
   - type: textarea
     id: description
@@ -23,10 +24,10 @@ body:
       required: true
       
   - type: textarea
-    id: steps
+    id: expected_behavior
     attributes:
       label: Comportement attendu
-      Validations:
+    validations:
       required: true
 
   - type: input
