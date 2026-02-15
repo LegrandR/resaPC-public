@@ -54,3 +54,10 @@
   
   ## v0.11.0beta : 2026-02-01
   - Ajout outils de monitoring et logging.
+  
+  ## v0.12.2 : 2026-02-15
+  - Ajout politique CSP
+  - Ajout systeme de rotation des secrets applicatifs
+  - Corrections de bugs divers
+  - Amélioration du logging d'erreurs
+  - Ajout multiples CSV pour classe/salle/activités
