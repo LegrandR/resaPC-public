@@ -13,11 +13,7 @@ ResaPC adapte ses fonctionnalités selon votre rôle. Voici ce que vous pouvez f
 ### 👀 1. Visiteur (Accès public)
 *Profil par défaut pour les consultation sans connexion (ex: élèves, parents sur borne).*
 
-*   **Consultation du Planning** : Accès à l'emploi du temps global de l'établissement.
-*   **Recherche de Ressources** :
-    *   **Par Date** : Vérifier l'occupation des salles pour une journée ou une semaine donnée.
-    *   **Par Activité** : Trouver les créneaux de "Cours", "TP", ou "Réunion".
-*   **Informations Salles** : Consulter les caractéristiques (capacité, équipements) des différentes salles.
+*   **Consultation du Planning par classe** : Accès à l'emploi du temps par classe de l'établissement.
 
 ### 🎓 2. Utilisateur (Enseignant / Personnel)
 *Nécessite une connexion avec identifiant et mot de passe.*
