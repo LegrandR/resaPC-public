@@ -61,3 +61,9 @@
   - Corrections de bugs divers
   - Amélioration du logging d'erreurs
   - Ajout multiples CSV pour classe/salle/activités
+  
+  ## v0.13.0 : 2026-02-19
+  - Corrections de bugs multiples dans le planning générale
+  - Ajout d'une interface d'édition des alias et clés de reconnaissance pour l'importation de planning.
+  - Correction d'erreur d'affichages.
+  - Ajout de l'export pdf par jour et par semaine.
