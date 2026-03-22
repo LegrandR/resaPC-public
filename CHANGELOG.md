@@ -67,3 +67,14 @@
   - Ajout d'une interface d'édition des alias et clés de reconnaissance pour l'importation de planning.
   - Correction d'erreur d'affichages.
   - Ajout de l'export pdf par jour et par semaine.
+
+
+ ## v0.14.0 : Mars 2026
+  - Implémentation d'un worker asynchrone
+  - Mise en place de sauvegarde globale par établissement (snapshots)
+
+ ## v0.15.0 : 2026-03-22
+  - Implémentation du menu "Mes protocoles"
+
+ ## v0.16.0 : 2026-03-22
+  - Implémentation de workers multiples.
