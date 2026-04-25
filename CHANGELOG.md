@@ -78,3 +78,19 @@
 
  ## v0.16.0 : 2026-03-22
   - Implémentation de workers multiples.
+  
+ ## v0.17.0 : 2026-03-30
+  - amélioration de la prise en charge de l'expiration de session
+  - amélioration de la typographie dans les protocoles
+  - amélioration de fenêtres de confirmation
+  - amélioration de la gestion de la liste du matériel pour les protocoles
+ 
+ ## v0.18.0 : 2026-04-16
+  - amélioration de la logique de suppresion de comptes
+  - les emails envoyés sur les boites professionnels arrivent maintenant de manière fiable
+  
+ ## v0.19.0 : 2026-04-25
+  - Implémentation d'un version de demonstration (beta)
+  - amélioration mineur des notations scientifiques et mise en page de l'export pdf pour les protocoles
+  - correction d'un but empéchant la génération de l'export pdf pour les protocoles
+  - ajout d'un formulaire de demande d'inscription d'un établissement.
