@@ -94,3 +94,11 @@
   - amélioration mineur des notations scientifiques et mise en page de l'export pdf pour les protocoles
   - correction d'un but empéchant la génération de l'export pdf pour les protocoles
   - ajout d'un formulaire de demande d'inscription d'un établissement.
+
+ ## v0.19.1 : 2026-04-26
+  - amélioration de l'interface de réservation
+
+ ## v0.20.0 : 2026-05-01
+  - Ajout de pièces jointes pour les notes de protocole
+  - Ajout d'un quota utilisateur pour ces pièces jointes
+  - Modification de l'export PDF pour inclure des images dans les notes de protocole.
