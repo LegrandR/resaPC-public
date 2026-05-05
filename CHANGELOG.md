@@ -106,3 +106,6 @@
  - ajout d'extensions pour les images téléversées
  - changement de standard de stockage pour AVIF
  - ajout application mobile pour téléversement d'images/fichiers
+
+## v0.22.0 : 2026-05-06
+ - Mise à jour php 8.2 vers php 8.4
