@@ -68,7 +68,7 @@
  - Correction d'erreur d'affichages.
  - Ajout de l'export pdf par jour et par semaine.
 
-## v0.14.0 : Mars 2026
+## v0.14.0 : 2026-03-20
  - Implémentation d'un worker asynchrone
  - Mise en place de sauvegarde globale par établissement (snapshots)
 
