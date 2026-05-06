@@ -102,12 +102,12 @@
  - Ajout d'un quota utilisateur pour ces pièces jointes
  - Modification de l'export PDF pour inclure des images dans les notes de protocole.
 
-## v0.21.0 : 2026-05-05
+## v0.21.0 : 2026-05-05/1
  - ajout d'extensions pour les images téléversées
  - changement de standard de stockage pour AVIF
  - ajout application mobile pour téléversement d'images/fichiers
 
-## v0.22.0 : 2026-05-06
+## v0.22.0 : 2026-05-05/2
  - Mise à jour php 8.2 vers php 8.4
 
 ## v0.22.1 : 2026-05-06
