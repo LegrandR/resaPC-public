@@ -6,30 +6,30 @@
  - redaction du README
  - Corrections multiples d'erreur de comportement du planing général
  - Ajout d'options de menu pour annuler les placements
- - Modification du layout général du planning personnel :ajout de visuels pour les tickets et menus contextuels pour modification des tickets.
- - Corrections de bugs associés à l'interface du planning personnel.
+ - Modification du layout général du planning personnel :ajout de visuels pour les tickets et menus contextuels pour modification des tickets
+ - Corrections de bugs associés à l'interface du planning personnel
   
 ## v0.2.0beta : 2026-01-05
  - Ajout d'une condition de detection de conflit lié aux utilisateurs : il est interdit de créer un créneau pour lequel l'utilisateur a déjà un autre créneau qui chevauche
- - Bug : "Refuser la demande" n'efface pas tout le temps une demande dans le planning global.
- - Amélioration du scrolling automatique dans le planning global.
- - Bug : Au refresh, les créneaux temporaires voyaient leur hauteur réduite.
- - Le marquage des conflits est maintenant appliqué lorsqu'on utilise la fonction "Accepter" (de la même manière que la fonction "Vérifie").
+ - Bug : "Refuser la demande" n'efface pas tout le temps une demande dans le planning global
+ - Amélioration du scrolling automatique dans le planning global
+ - Bug : Au refresh, les créneaux temporaires voyaient leur hauteur réduite
+ - Le marquage des conflits est maintenant appliqué lorsqu'on utilise la fonction "Accepter" (de la même manière que la fonction "Vérifie")
  - Correction du bug #7 lié à la fonction "annuler"
  - Ajout d'un système de notes plus complet associés aux créneaux
- - Ajout d'un système de messagerie entre utilisateur et administrateur associés aux tickets.
+ - Ajout d'un système de messagerie entre utilisateur et administrateur associés aux tickets
    
 ## v0.3.0beta : 2026-01-06
- - Modification de l'UI "Gestion des activités" pour permettre une présaisie du nombres d'élèves et du type de salle en fonction de l'activité.
- - Création de deux nouveaux rôles "laboratoire" et "Gestionnaire".
- - Modification du mode "lock" : un nouveau bouton apparait sur les comptes éditeur pour verrouiller l'édition des autres comptes éditeurs.
- - Modification raccourci administrateur : un bug renvoyait vers les tickets personnels au lieu de l'interface de gestion des tickets.
+ - Modification de l'UI "Gestion des activités" pour permettre une présaisie du nombres d'élèves et du type de salle en fonction de l'activité
+ - Création de deux nouveaux rôles "laboratoire" et "Gestionnaire"
+ - Modification du mode "lock" : un nouveau bouton apparait sur les comptes éditeur pour verrouiller l'édition des autres comptes éditeurs
+ - Modification raccourci administrateur : un bug renvoyait vers les tickets personnels au lieu de l'interface de gestion des tickets
   
 ## v0.4.0beta : 2026-01-07
- - Bug fix : un créneau déjà placé par un administrateur n'est pas replacé de nouveau quand on lance le placement automatique. Seuls les créneaux issues de la zone de demandes sont placés automatiquement.
- - Ajout d'un menu sous le clic droit : placer ce créneau, permettant un placement automatique du créneau concerné.
- - Placement "Auto" place automatiquement les créneaux sous conflit (rouge), les créneaux sous demande de modification (violet) et les créneaux de la zone "demandes".
- - Ajout d'une logique d'épinglage pour interdire le placement automatique et le déplacement de créneau (fonctionne pour tout type de créneau. Ils sont ignorés de la fonction placement automatique et ne peuvent pas être déplacé par cette dernière).
+ - Bug fix : un créneau déjà placé par un administrateur n'est pas replacé de nouveau quand on lance le placement automatique. Seuls les créneaux issues de la zone de demandes sont placés automatiquement
+ - Ajout d'un menu sous le clic droit : placer ce créneau, permettant un placement automatique du créneau concerné
+ - Placement "Auto" place automatiquement les créneaux sous conflit (rouge), les créneaux sous demande de modification (violet) et les créneaux de la zone "demandes"
+ - Ajout d'une logique d'épinglage pour interdire le placement automatique et le déplacement de créneau (fonctionne pour tout type de créneau. Ils sont ignorés de la fonction placement automatique et ne peuvent pas être déplacé par cette dernière)
   
 ## v0.5.0beta : 2026-01-16
  - Reprise du planning pour restructuration compléte : implémentation du planning générale V2
@@ -43,14 +43,14 @@
  - Ajout d'utilisateur virtuel
   
 ## v0.8.0beta : 2026-01-26
- - Refonte du système d'importation : utilisation directe de PDF ou ICS dans l'application.
+ - Refonte du système d'importation : utilisation directe de PDF ou ICS dans l'application
   
 ## v0.9.0beta : 2026-01-29
  - Audit de securité et amélioration du code vis à vis de la sécurité de l'application
  - Ajout pepper dans l'encodage des mots de passe.
   
 ## v0.10.0beta : 2026-01-31
- - Audit de performance et amélioration des performances generales de l'application : refactorisation et modification des queries.
+ - Audit de performance et amélioration des performances generales de l'application : refactorisation et modification des queries
   
 ## v0.11.0beta : 2026-02-01
  - Ajout outils de monitoring et logging.
@@ -79,23 +79,23 @@
  - Implémentation de workers multiples.
   
 ## v0.17.0 : 2026-03-30
- - amélioration de la prise en charge de l'expiration de session
- - amélioration de la typographie dans les protocoles
- - amélioration de fenêtres de confirmation
- - amélioration de la gestion de la liste du matériel pour les protocoles
+ - Amélioration de la prise en charge de l'expiration de session
+ - Amélioration de la typographie dans les protocoles
+ - Amélioration de fenêtres de confirmation
+ - Amélioration de la gestion de la liste du matériel pour les protocoles
  
 ## v0.18.0 : 2026-04-16
- - amélioration de la logique de suppresion de comptes
- - les emails envoyés sur les boites professionnels arrivent maintenant de manière fiable
+ - Amélioration de la logique de suppresion de comptes
+ - Les emails envoyés sur les boites professionnels arrivent maintenant de manière fiable
   
 ## v0.19.0 : 2026-04-25
  - Implémentation d'un version de demonstration (beta)
- - amélioration mineur des notations scientifiques et mise en page de l'export pdf pour les protocoles
- - correction d'un but empéchant la génération de l'export pdf pour les protocoles
- - ajout d'un formulaire de demande d'inscription d'un établissement.
+ - Amélioration mineur des notations scientifiques et mise en page de l'export pdf pour les protocoles
+ - Correction d'un but empéchant la génération de l'export pdf pour les protocoles
+ - Ajout d'un formulaire de demande d'inscription d'un établissement.
 
 ## v0.19.1 : 2026-04-26
- - amélioration de l'interface de réservation
+ - Amélioration de l'interface de réservation
 
 ## v0.20.0 : 2026-05-01
  - Ajout de pièces jointes pour les notes de protocole
@@ -103,17 +103,17 @@
  - Modification de l'export PDF pour inclure des images dans les notes de protocole.
 
 ## v0.21.0 : 2026-05-05/1
- - ajout d'extensions pour les images téléversées
- - changement de standard de stockage pour AVIF
- - ajout application mobile pour téléversement d'images/fichiers
+ - Ajout d'extensions pour les images téléversées
+ - Changement de standard de stockage pour AVIF
+ - Ajout application mobile pour téléversement d'images/fichiers
 
 ## v0.22.0 : 2026-05-05/2
  - Mise à jour php 8.2 vers php 8.4
 
 ## v0.22.1 : 2026-05-06
- - Amélioration du fonctionnement de l'interface de rapport de bugs;
- - Amélioration du fonctionnement de l'interface d'envoie de messages.
+ - Amélioration du fonctionnement de l'interface de rapport de bugs
+ - Amélioration du fonctionnement de l'interface d'envoie de messages
  
 ## v0.23.0 : 2026-05-15
- - Implémentation d'un système de news;
- - Correction d'un bug empéchant un gestionnaire d'avoir accés au planning général.
+ - Implémentation d'un système de news
+ - Correction d'un bug empéchant un gestionnaire d'avoir accés au planning général
