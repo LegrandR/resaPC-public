@@ -111,5 +111,9 @@
  - Mise à jour php 8.2 vers php 8.4
 
 ## v0.22.1 : 2026-05-06
- - Amélioration du fonctionnement de l'interface de rapport de bugs.
+ - Amélioration du fonctionnement de l'interface de rapport de bugs;
  - Amélioration du fonctionnement de l'interface d'envoie de messages.
+ 
+## v0.23.0 : 2026-05-15
+ - Implémentation d'un système de news;
+ - Correction d'un bug empéchant un gestionnaire d'avoir accés au planning général.
