@@ -117,3 +117,9 @@
 ## v0.23.0 : 2026-05-15
  - Implémentation d'un système de news
  - Correction d'un bug empéchant un gestionnaire d'avoir accés au planning général
+
+## v0.24.0 : 2026-05-27
+ - Implémentation d'une application mobile PWA pour les opérations simples de consultation
+
+## v0.24.1 : 2026-06-01
+ - Implémentation d'une application mobile pour visiteur : consultation du planning d'une classe
