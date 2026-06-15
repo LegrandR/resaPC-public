@@ -1,41 +1,41 @@
 ## Pre-release : 2026-01-03
- - Création d'un dépot github
+ - Création d'un dépôt github
  - Ajout de la licence, liste des auteurs et politique de confidentialité
  
 ## v0.1.0beta : 2026-01-04
- - redaction du README
- - Corrections multiples d'erreur de comportement du planing général
+ - rédaction du README
+ - Corrections multiples d'erreur de comportement du planning général
  - Ajout d'options de menu pour annuler les placements
- - Modification du layout général du planning personnel :ajout de visuels pour les tickets et menus contextuels pour modification des tickets
+ - Modification du layout général du planning personnel : ajout de visuels pour les tickets et menus contextuels pour modification des tickets
  - Corrections de bugs associés à l'interface du planning personnel
   
 ## v0.2.0beta : 2026-01-05
- - Ajout d'une condition de detection de conflit lié aux utilisateurs : il est interdit de créer un créneau pour lequel l'utilisateur a déjà un autre créneau qui chevauche
+ - Ajout d'une condition de détection de conflit lié aux utilisateurs : il est interdit de créer un créneau pour lequel l'utilisateur a déjà un autre créneau qui chevauche
  - Bug : "Refuser la demande" n'efface pas tout le temps une demande dans le planning global
  - Amélioration du scrolling automatique dans le planning global
- - Bug : Au refresh, les créneaux temporaires voyaient leur hauteur réduite
+ - Bug : A la mise à jour, les créneaux temporaires voyaient leur hauteur réduite
  - Le marquage des conflits est maintenant appliqué lorsqu'on utilise la fonction "Accepter" (de la même manière que la fonction "Vérifie")
  - Correction du bug #7 lié à la fonction "annuler"
  - Ajout d'un système de notes plus complet associés aux créneaux
  - Ajout d'un système de messagerie entre utilisateur et administrateur associés aux tickets
    
 ## v0.3.0beta : 2026-01-06
- - Modification de l'UI "Gestion des activités" pour permettre une présaisie du nombres d'élèves et du type de salle en fonction de l'activité
+ - Modification de l'UI "Gestion des activités" pour permettre une pré-saisie du nombre d'élèves et du type de salle en fonction de l'activité
  - Création de deux nouveaux rôles "laboratoire" et "Gestionnaire"
  - Modification du mode "lock" : un nouveau bouton apparait sur les comptes éditeur pour verrouiller l'édition des autres comptes éditeurs
  - Modification raccourci administrateur : un bug renvoyait vers les tickets personnels au lieu de l'interface de gestion des tickets
   
 ## v0.4.0beta : 2026-01-07
- - Bug fix : un créneau déjà placé par un administrateur n'est pas replacé de nouveau quand on lance le placement automatique. Seuls les créneaux issues de la zone de demandes sont placés automatiquement
+ - Bug fix : un créneau déjà placé par un administrateur n'est pas replacé de nouveau quand on lance le placement automatique. Seuls les créneaux issus de la zone de demandes sont placés automatiquement
  - Ajout d'un menu sous le clic droit : placer ce créneau, permettant un placement automatique du créneau concerné
  - Placement "Auto" place automatiquement les créneaux sous conflit (rouge), les créneaux sous demande de modification (violet) et les créneaux de la zone "demandes"
  - Ajout d'une logique d'épinglage pour interdire le placement automatique et le déplacement de créneau (fonctionne pour tout type de créneau. Ils sont ignorés de la fonction placement automatique et ne peuvent pas être déplacé par cette dernière)
   
 ## v0.5.0beta : 2026-01-16
- - Reprise du planning pour restructuration compléte : implémentation du planning générale V2
+ - Reprise du planning pour restructuration complète : implémentation du planning générale V2
   
 ## v0.6.0beta : 2026-01-22
- - Réécriture de la database pour utiliser une logique multiétablissement
+ - Réécriture de la database pour utiliser une logique multi-établissement
  - utilisation généralisé de wrapper sur les appels DB pour assurer l'utilisation d'un filtre établissement relatif à l'utilisateur
   
 ## v0.7.0beta : 2026-01-26
@@ -46,18 +46,18 @@
  - Refonte du système d'importation : utilisation directe de PDF ou ICS dans l'application
   
 ## v0.9.0beta : 2026-01-29
- - Audit de securité et amélioration du code vis à vis de la sécurité de l'application
+ - Audit de sécurité et amélioration du code vis à vis de la sécurité de l'application
  - Ajout pepper dans l'encodage des mots de passe.
   
 ## v0.10.0beta : 2026-01-31
- - Audit de performance et amélioration des performances generales de l'application : refactorisation et modification des queries
+ - Audit de performance et amélioration des performances générales de l'application : refactorisation et modification des queries
   
 ## v0.11.0beta : 2026-02-01
  - Ajout outils de monitoring et logging.
   
 ## v0.12.2 : 2026-02-15
  - Ajout politique CSP
- - Ajout systeme de rotation des secrets applicatifs
+ - Ajout système de rotation des secrets applicatifs
  - Corrections de bugs divers
  - Amélioration du logging d'erreurs
  - Ajout multiples CSV pour classe/salle/activités
@@ -85,13 +85,13 @@
  - Amélioration de la gestion de la liste du matériel pour les protocoles
  
 ## v0.18.0 : 2026-04-16
- - Amélioration de la logique de suppresion de comptes
+ - Amélioration de la logique de suppression de comptes
  - Les emails envoyés sur les boites professionnels arrivent maintenant de manière fiable
   
 ## v0.19.0 : 2026-04-25
- - Implémentation d'un version de demonstration (beta)
+ - Implémentation d'une version de démonstration (beta)
  - Amélioration mineur des notations scientifiques et mise en page de l'export pdf pour les protocoles
- - Correction d'un but empéchant la génération de l'export pdf pour les protocoles
+ - Correction d'un but empêchant la génération de l'export pdf pour les protocoles
  - Ajout d'un formulaire de demande d'inscription d'un établissement.
 
 ## v0.19.1 : 2026-04-26
@@ -112,14 +112,55 @@
 
 ## v0.22.1 : 2026-05-06
  - Amélioration du fonctionnement de l'interface de rapport de bugs
- - Amélioration du fonctionnement de l'interface d'envoie de messages
+ - Amélioration du fonctionnement de l'interface d'envoi de messages
  
 ## v0.23.0 : 2026-05-15
  - Implémentation d'un système de news
- - Correction d'un bug empéchant un gestionnaire d'avoir accés au planning général
+ - Correction d'un bug empêchant un gestionnaire d'avoir accès au planning général
 
 ## v0.24.0 : 2026-05-27
  - Implémentation d'une application mobile PWA pour les opérations simples de consultation
 
 ## v0.24.1 : 2026-06-01
  - Implémentation d'une application mobile pour visiteur : consultation du planning d'une classe
+
+## v0.24.2 : 2026-06-04
+ - Correction de bugs : 
+	- les tickets traités ou supprimé n'apparaitront plus dans la zone de demandes
+	- le saut de date journalier faisait parfois sauter plusieurs années
+	- le filtre de tickets déjà existant dans le processus d'import va maintenant ignorer les tickets traités ou supprimés
+	- les tickets "toute l'année" seront maintenant correctement interprété dans le processus d'import d'emploi du temps
+ - Amélioration du placement auto : maintenant le système cherchera à placer un même utilisateur dans la même salle si les créneaux se suivent.
+ - Ajout d'une option d'export de planning dans /laboratory/planning
+ 
+## v0.24.3 : 2026-06-05
+ - amélioration de la géométrie du planning général
+
+## v0.24.4 : 2026-06-06
+ - amélioration du processus d'importation des emplois du temps : création d'une grille de prévisualisation
+ - amélioration de l'affichage des conflits dans le cas où des classes sont partagées en groupes dont l'effectif est inférieur à 100%
+ - ajout d'une option de création de planning PDF par utilisateur
+ - ajout d'une option de génération pdf en portrait
+ - ajout d'un filtre de mise en avant dans le planning général
+
+## v0.24.5 : 2026-06-07
+ - ajout d'un modificateur avec la touche "ctrl" :
+   - affichage des notes par survol de la souris en appuyant sur ctrl
+   - affichage de l'heure dans le planning en appuyant sur ctrl
+   - déplacement d'un créneau avec modification automatique de l'heure avec ctrl + déplacement
+ - modification de divers menus pour inclure un champ de recherche
+ - ajout copier/coller de créneau
+ - ajout d'une bascule pour changer les couleurs des créneaux en fonction des activités
+ - modification de l'interface de gestion des activités pour y modifier leurs couleurs
+ 
+## v0.25.6 : 2026-06-11
+ - ajout d'un redimensionnement de créneau avec enregistrement automatique de l'heure par appuis sur ctrl + clic
+ - modification de l'interface de création d'une demande de matériel pour y inclure une sélection de créneau
+ 
+## v0.25.7 : 2026-06-12
+ - fiabilisation de la detection du mode édition
+ - Ajout entrée/sortie automatique du mode édition lors de la création directe de créneau et de la consultation des demandes
+
+## v0.25.8 : 2026-06-13
+ - Ajout d'une option pour afficher/cacher le mot de passe sur la page d'authentification
+ - Possibilité de modifier l'ordre des salles affichées dans les planning
