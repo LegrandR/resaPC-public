@@ -159,8 +159,18 @@
  
 ## v0.25.7 : 2026-06-12
  - fiabilisation de la detection du mode édition
- - Ajout entrée/sortie automatique du mode édition lors de la création directe de créneau et de la consultation des demandes
+ - ajout entrée/sortie automatique du mode édition lors de la création directe de créneau et de la consultation des demandes
 
 ## v0.25.8 : 2026-06-13
- - Ajout d'une option pour afficher/cacher le mot de passe sur la page d'authentification
- - Possibilité de modifier l'ordre des salles affichées dans les planning
+ - ajout d'une option pour afficher/cacher le mot de passe sur la page d'authentification
+ - possibilité de modifier l'ordre des salles affichées dans les planning
+
+## v0.25.9 : 2026-06-15
+ - ajout d'une nouvelle relation entre les utilisateurs : la représentation. Un utilisateur peut représenter un autre utilisateur virtuel ou non pour réaliser des demandes de création de créneau et de modification de créneau en son nom
+
+## v0.25.10 : 2026-06-18
+ - ajout couper/coller d'un créneau (ctrl+x/v)
+ - modification de l'UI planning général et planning laboratoire pour basculer en vue jour/semaine et plein écran
+ - correction d'un bug qui empéchait le rôle laboratoire de réaliser les exports pdf
+ - modifications mineures sur la structure des exports pdf
+ - ajout d'un menu pour modifier les couleurs par défaut
