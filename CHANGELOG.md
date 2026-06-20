@@ -174,3 +174,7 @@
  - correction d'un bug qui empéchait le rôle laboratoire de réaliser les exports pdf
  - modifications mineures sur la structure des exports pdf
  - ajout d'un menu pour modifier les couleurs par défaut
+
+## v0.25.11 : 2026-06-20
+ - modification du système de journale
+ - ajout d'onglet pour supprimer complétement certaines données liées à l'établissement
