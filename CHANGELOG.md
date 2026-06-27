@@ -178,3 +178,8 @@
 ## v0.25.11 : 2026-06-20
  - modification du système de journale
  - ajout d'onglet pour supprimer complétement certaines données liées à l'établissement
+ 
+## v0.25.12 : 2026-06-27
+ - correction d'un bugde formatage empéchant la reception d'email sur certaines boites.
+ - modification du processus de validation de certaines opérations administrateur critiques : une demande de confirmation de mot de passe est redemandé.
+ - les administrateurs ne sont plus autorisé à modifier l'email des utilisateurs. Les emails sont uniquement modifiables de manière individuelle.
