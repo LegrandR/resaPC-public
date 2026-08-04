@@ -180,9 +180,13 @@
  - ajout d'onglet pour supprimer complétement certaines données liées à l'établissement
  
 ## v0.25.12 : 2026-06-27
- - correction d'un bugde formatage empéchant la reception d'email sur certaines boites.
- - modification du processus de validation de certaines opérations administrateur critiques : une demande de confirmation de mot de passe est redemandé.
- - les administrateurs ne sont plus autorisé à modifier l'email des utilisateurs. Les emails sont uniquement modifiables de manière individuelle.
+ - correction d'un bugde formatage empéchant la reception d'email sur certaines boites
+ - modification du processus de validation de certaines opérations administrateur critiques : une demande de confirmation de mot de passe est redemandé
+ - les administrateurs ne sont plus autorisé à modifier l'email des utilisateurs. Les emails sont uniquement modifiables de manière individuelle
  
 ## v0.25.13 : 2026-07-21
- - remplacement et optimisation du système anti-spam et detection de robots.
+ - remplacement et optimisation du système anti-spam et detection de robots
+
+## v0.25.14 : 2026-08-03
+ - correction d'un bug qui empéchait le téléversement de nom de ficher avec certains caractéres
+ - correction d'un bug lors du déplacement de créneau revenant à leur position initiale (couleur non rétablie)
