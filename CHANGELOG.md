@@ -190,3 +190,11 @@
 ## v0.25.14 : 2026-08-03
  - correction d'un bug qui empéchait le téléversement de nom de ficher avec certains caractéres
  - correction d'un bug lors du déplacement de créneau revenant à leur position initiale (couleur non rétablie)
+
+## v0.26.1 : 2026-08-10
+ - renforcement structurel du chiffrement et du cloisonnement inter-établissement
+ - ajout d'une option pour autoriser ou non l'accés visiteur au niveau de l'établissement
+
+## v0.26.2 : 2026-08-14
+ - implémentation d'une architecture modulaire pour le chargement de fonctionnalités
+ - passage des outils de gestions des protocoles en fonctionnalité modulaire
