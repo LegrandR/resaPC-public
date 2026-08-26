@@ -198,3 +198,8 @@
 ## v0.26.2 : 2026-08-14
  - implémentation d'une architecture modulaire pour le chargement de fonctionnalités
  - passage des outils de gestions des protocoles en fonctionnalité modulaire
+
+## v0.26.3 : 2026-08-26
+ - correction de bugs d'interfaces diverses
+ - modification de certaines indications dans l'interface
+ - ajout d'un menu pour édition plus compléte d'un créneau récurrent à partir de l'interface de modification
