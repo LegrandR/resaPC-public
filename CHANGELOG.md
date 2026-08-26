@@ -188,7 +188,7 @@
  - remplacement et optimisation du système anti-spam et detection de robots
 
 ## v0.25.14 : 2026-08-03
- - correction d'un bug qui empéchait le téléversement de nom de ficher avec certains caractéres
+ - correction d'un bug qui empéchait le téléversement de nom de fichiers avec certains caractéres
  - correction d'un bug lors du déplacement de créneau revenant à leur position initiale (couleur non rétablie)
 
 ## v0.26.1 : 2026-08-10
