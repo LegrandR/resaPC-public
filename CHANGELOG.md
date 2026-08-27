@@ -203,3 +203,10 @@
  - correction de bugs d'interfaces diverses
  - modification de certaines indications dans l'interface
  - ajout d'un menu pour édition plus compléte d'un créneau récurrent à partir de l'interface de modification
+ 
+## v0.26.4 : 2026-08-27
+ - ajout modules "Vie de classe" : Plan de classe, Trombinoscope, assistant d'appels (désactivé par défaut)
+ - ajout d'un champ de confirmation relatif au droit à l'image avant d'utiliser le module "Trombinoscope"
+ - modification du système de colorisation des créneaux avec colorisation croisée Activité/Niveau
+ - correction d'un bug dans le wizard d'importation des emplois du temps
+ - ajout de l'activité dans le textes d'information des créneaux
