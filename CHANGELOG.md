@@ -215,3 +215,4 @@
  - correction d'un bug empéchant un utilisateur de réaliser un "bug report"
  - correction d'un bug empéchant les paramètres de marges d'être réellement utilisé pour les exports pdf
  - ajout d'une consultation lecture seule du planning général pour les utilisateurs
+ - amélioration de la visibilité des horaires de début et fin d'un créneau lors d'un déplacement avec changement d'horaire.
