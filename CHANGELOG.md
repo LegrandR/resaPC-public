@@ -210,3 +210,8 @@
  - modification du système de colorisation des créneaux avec colorisation croisée Activité/Niveau
  - correction d'un bug dans le wizard d'importation des emplois du temps
  - ajout de l'activité dans le textes d'information des créneaux
+
+## v0.26.5 : 2026-09-01
+ - correction d'un bug empéchant un utilisateur de réaliser un "bug report"
+ - correction d'un bug empéchant les paramètres de marges d'être réellement utilisé pour les exports pdf
+ - ajout d'une consultation lecture seule du planning général pour les utilisateurs
