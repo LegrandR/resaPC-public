@@ -218,5 +218,5 @@
  - amélioration de la visibilité des horaires de début et fin d'un créneau lors d'un déplacement avec changement d'horaire.
 
 ## v0.26.6 : 2026-09-04
- - implémentation d'une logique de verrou par zone pour les utilisateur laboratoire et gestionnaire
+ - implémentation d'une logique de verrou par zone pour les utilisateurs laboratoires et gestionnaires
  - correction de bugs divers
