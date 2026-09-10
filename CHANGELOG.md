@@ -191,32 +191,41 @@
  - correction d'un bug qui empéchait le téléversement de nom de fichiers avec certains caractéres
  - correction d'un bug lors du déplacement de créneau revenant à leur position initiale (couleur non rétablie)
 
-## v0.26.1 : 2026-08-10
+## v0.26.0 : 2026-08-10
  - renforcement structurel du chiffrement et du cloisonnement inter-établissement
  - ajout d'une option pour autoriser ou non l'accés visiteur au niveau de l'établissement
 
-## v0.26.2 : 2026-08-14
+## v0.26.1 : 2026-08-14
  - implémentation d'une architecture modulaire pour le chargement de fonctionnalités
  - passage des outils de gestions des protocoles en fonctionnalité modulaire
 
-## v0.26.3 : 2026-08-26
+## v0.26.2 : 2026-08-26
  - correction de bugs d'interfaces diverses
  - modification de certaines indications dans l'interface
  - ajout d'un menu pour édition plus compléte d'un créneau récurrent à partir de l'interface de modification
  
-## v0.26.4 : 2026-08-27
+## v0.26.3 : 2026-08-27
  - ajout modules "Vie de classe" : Plan de classe, Trombinoscope, assistant d'appels (désactivé par défaut)
  - ajout d'un champ de confirmation relatif au droit à l'image avant d'utiliser le module "Trombinoscope"
  - modification du système de colorisation des créneaux avec colorisation croisée Activité/Niveau
  - correction d'un bug dans le wizard d'importation des emplois du temps
  - ajout de l'activité dans le textes d'information des créneaux
 
-## v0.26.5 : 2026-09-01
+## v0.26.4 : 2026-09-01
  - correction d'un bug empéchant un utilisateur de réaliser un "bug report"
  - correction d'un bug empéchant les paramètres de marges d'être réellement utilisé pour les exports pdf
  - ajout d'une consultation lecture seule du planning général pour les utilisateurs
  - amélioration de la visibilité des horaires de début et fin d'un créneau lors d'un déplacement avec changement d'horaire.
 
-## v0.26.6 : 2026-09-04
+## v0.26.5 : 2026-09-04
  - implémentation d'une logique de verrou par zone pour les utilisateurs laboratoires et gestionnaires
  - correction de bugs divers
+ 
+## v0.26.6 : 2026-09-06
+ - corrections de bugs divers lié au renouvellement des données côté client
+ - correction d'un bug lié au placement d'un créneau avec demande de modification
+ - ajouts de divers menu clic droit pour les créneaux avec demande de modification
+
+## v0.27.0 : 2026-09-10
+ - implémentation d'une feuille de préparation du matériel pour le laboratoire
+ - amélioration du fonctionnement des UI planning général et laboratoire
