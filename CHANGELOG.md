@@ -230,9 +230,13 @@
  - implémentation d'une feuille de préparation du matériel pour le laboratoire
  - amélioration du fonctionnement des UI planning général et laboratoire
 
-## v0.27.1 : 2029-09-12
+## v0.27.1 : 2026-09-12
  - correction d'un bug qui empéchait de déplacé un créneau d'un jour à un autre
  - implémentation d'un nouveau panneau de filtre des planning
  - correction d'un bug qui empéchait de placer un créneau dans une salle recement créé
  - ajout d'une fonctionnalité d'export du trombinoscope
  - correction d'un bug d'affichage relatif au verrouillage d'horraires
+
+## v0.27.2 : 2026-09-19
+ - correction d'un bug d'affichage de l'état du serveur sur les applications mobiles
+ - amélioration de l'affichage du brouillon pour les créneaux récurrents
