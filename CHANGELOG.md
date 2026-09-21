@@ -240,3 +240,7 @@
 ## v0.27.2 : 2026-09-19
  - correction d'un bug d'affichage de l'état du serveur sur les applications mobiles
  - amélioration de l'affichage du brouillon pour les créneaux récurrents
+
+## v0.27.3 : 2026-09-21
+ - correction d'un bug qui empéchait la sauvegarde d'un créneau
+ - correction d'un bug de sécurité qui interdisait la modification d'un protocole
