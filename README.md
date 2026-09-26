@@ -66,6 +66,13 @@ Pour éviter les conflits (deux cours dans la même salle), ResaPC utilise un sy
 
 ---
 
+## À propos
+  ResaPC est conçu, développé et maintenu par LegrandR (contact.resapc@gmail.com),
+  seul auteur et propriétaire du code, de l'instance et de l'hébergement.
+  - Instance de pré-production (bêta) : https://resapc.duckdns.org
+  - Code source : dépôt privé (accès sur demande)
+
+
 ## 🐛 Signaler un Bug ou un Problème
 
 Si vous rencontrez une erreur technique ou un comportement inattendu, merci de suivre cette procédure pour nous aider à le corriger rapidement :

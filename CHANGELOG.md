@@ -244,3 +244,10 @@
 ## v0.27.3 : 2026-09-21
  - correction d'un bug qui empéchait la sauvegarde d'un créneau
  - correction d'un bug de sécurité qui interdisait la modification d'un protocole
+
+## v0.27.4 : 2026-09-26
+ - correction d'un bug qui interdisait de voir la visualisation concernant les demandes de modification
+ - ajout d'un rappel dans la zone de demande concernant les demandes de modification
+ - correction du comportement de l'affichage des demandes expirées dans le planning général
+ - mise en mémoire locale du choix de colorisation du planning
+ - corrections de bugs divers
