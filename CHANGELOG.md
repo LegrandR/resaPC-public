@@ -251,3 +251,12 @@
  - correction du comportement de l'affichage des demandes expirées dans le planning général
  - mise en mémoire locale du choix de colorisation du planning
  - corrections de bugs divers
+
+## v0.28.0 : 2026-10-05
+ - modification mineurs d'interfaces des plannings
+ - ajout d'une option établissement pour permettre aux utilisateurs d'inviter d'autres utilisateurs
+ - mécanisme d'invalidation de cache pour les protocoles
+ - réécriture du systèmed d'information
+ - modification de la politique de format du mot de passe
+ - implémentation d'une double authentification optionnelle
+ - refonte du système de sauvegarde établissement
