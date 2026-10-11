@@ -260,3 +260,9 @@
  - modification de la politique de format du mot de passe
  - implémentation d'une double authentification optionnelle
  - refonte du système de sauvegarde établissement
+
+## v0.29.0 : 2026-10-11
+ - ajout d'une interface de gestions des documents
+ - ajout d'une interface de création de schémas
+ - amélioration de l'intégration d'images et de schémas dans les protocoles
+ - corrections de bugs divers
