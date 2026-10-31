@@ -266,3 +266,21 @@
  - ajout d'une interface de création de schémas
  - amélioration de l'intégration d'images et de schémas dans les protocoles
  - corrections de bugs divers
+
+## v0.30.0 : 2026-10-19
+ - il est maintenant possible d'associer plusieurs protocoles à une demande de matériel
+ - ajout d'une interface permettant de définir des plages horaires reservées pour des examens
+ - ajout de boutons permettant de basculer d'un ticket au jour ou créneau concerné dans le planning
+ - alignement de l'interface de filtres et recherches entre les vues administrateur et laboratoire
+
+## v0.31.0 : 2026-10-31
+ - ajout d'un module de planification d'examens : banalisation de salles, de classes et de personnels sur une période, gestion des épreuves et du tiers-temps, affectation des surveillants, placement des candidats, plan d'examen et convocations en PDF
+ - affichage des surveillances d'examen dans le planning personnel
+ - ajout d'un module de tirage aléatoire d'élèves, avec statistiques par catégorie et constitution de groupes
+ - nouveau planning personnel : fiche du créneau au clic, affichage des jours fériés et des vacances, bouton « Planning des représentés », raccourcis clavier
+ - ajout d'une page « Disposition des plannings » pour personnaliser par établissement le contenu des créneaux et des infobulles
+ - ajout d'un réglage des informations affichées dans l'en-tête des salles du planning général
+ - laboratoire : recherche et filtres dans la liste des demandes, pagination des demandes en attente, accès direct au créneau concerné dans le planning
+ - éditeur de schémas : flèches de trait personnalisables, outil polygone, déplacement des jonctions, pas fin avec la touche Ctrl
+ - possibilité de redimensionner les images dans les textes des protocoles
+ - corrections de bugs divers
