@@ -284,3 +284,41 @@
  - éditeur de schémas : flèches de trait personnalisables, outil polygone, déplacement des jonctions, pas fin avec la touche Ctrl
  - possibilité de redimensionner les images dans les textes des protocoles
  - corrections de bugs divers
+ 
+## v0.31.1 : 2026-11-06
+ - ajout des épreuves à passages (oraux, ECE, épreuves pratiques), en module optionnel du planificateur d'examens : chaque candidat passe à son tour devant un évaluateur
+   - réglages de l'épreuve : durée des passages, pauses, nombre de candidats par évaluateur, postes par salle, contraintes (dispenses, temps supplémentaire, indisponibilités, élèves d'un professeur confiés à un autre évaluateur)
+   - plusieurs modes de remplissage : chronologique, équilibré par demi-journée, regroupement par classe, réserve de places, répartition entre évaluateurs au prorata de leurs heures
+   - planning des passages consultable par épreuve, par évaluateur ou par classe, avec un tableau récapitulatif de la charge de chaque évaluateur
+   - retouche des passages à la main, par glisser-déposer ou depuis la fiche de l'élève, en ne proposant que les choix possibles
+   - diffusion aux évaluateurs sur l'application mobile, avec une anonymisation des candidats possible jusqu'à l'heure de passage
+   - relevé de présence sur mobile ou depuis l'ordinateur
+   - exports PDF : planning des passages, convocations des candidats, feuilles d'évaluateur avec émargement
+ - planificateur d'examens : un seul compte peut modifier un examen à la fois (mode édition), les autres le consultent en lecture seule
+ - planificateur d'examens : la grille « Surveillance/Évaluation » affiche l'occupation de chaque surveillant et les plages disponibles des personnels, et permet de vider ou de placer automatiquement un jour ou une salle
+ - planificateur d'examens : les comptes virtuels peuvent être affectés aux surveillances ; les convocations de surveillance sont désormais annoncées par une news plutôt que par e-mail
+ - sessions : une session se ferme après 2 heures d'inactivité ; un bandeau prévient avant l'expiration
+ - planning personnel : les créneaux comportant une demande de matériel apparaissent en vert
+ - l'infobulle de la pastille « +n » affiche la couleur d'état des créneaux regroupés
+ - les compteurs de la page de gestion des demandes se mettent à jour plus rapidement
+ - corrections de bugs divers et renforcement de la sécurité
+ 
+## v0.32.0 : 2026-11-15
+ - les nouvelles versions des plannings général, laboratoire et personnel deviennent définitives : le lien de retour vers l'ancienne version disparaît
+ - plannings général, laboratoire et consultation : l'espace sous la barre de navigation est réduit, pour afficher davantage de planning
+ - l'effectif des créneaux s'affiche désormais sous la forme d'un simple nombre (le détail « Élèves : n » reste dans l'infobulle)
+ - l'infobulle de la pastille « +n » montre les éléments regroupés, chacun à sa place dans le texte
+ - nouveau réglage d'établissement pour choisir les badges affichés sur les créneaux : récurrent (R), exceptionnel (E) ou les deux
+ - page « Disposition des plannings » : nouvel onglet « Réglages généraux », qui regroupe les badges R/E et les informations de l'en-tête des salles
+ - planning personnel : les lignes de la grille suivent le pas horaire de l'établissement, avec des repères horaires plus lisibles
+ - planning personnel : le bouton « Télécharger ma convocation » revient pour les surveillances d'examen
+ - l'export PDF du planning laboratoire utilise maintenant la disposition propre au laboratoire
+ - créneaux récurrents : la modification « cette occurrence et les suivantes » s'applique correctement à toute la suite de la série
+ - une occurrence modifiée seule devient un créneau exceptionnel, détaché de sa série
+ - gestionnaires : droits clarifiés. Ils consultent et modifient les notes des créneaux de leurs zones et peuvent lire la note du laboratoire. Seul le laboratoire peut accepter ou refuser les demandes de matériel ; les gestionnaires suivent leurs échanges en lecture.
+ - le bouton « Refuser la demande » n'apparaît plus sur une demande déjà refusée ou déjà acceptée
+ - application mobile : les notes d'un créneau sont en lecture seule quand on consulte le planning d'un collègue
+ - import des emplois du temps : l'analyse du fichier se fait en arrière-plan, avec un indicateur d'attente
+ - compte : le nombre de tentatives de mot de passe est limité lors d'un changement de mot de passe ou d'une suppression de compte
+ - correction d'un bug qui empêchait d'ouvrir la page de modification d'un créneau
+ - renforcement général de la sécurité et de la fiabilité de l'application
