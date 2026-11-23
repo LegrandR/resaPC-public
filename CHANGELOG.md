@@ -322,17 +322,26 @@
  - compte : le nombre de tentatives de mot de passe est limité lors d'un changement de mot de passe ou d'une suppression de compte
  - correction d'un bug qui empêchait d'ouvrir la page de modification d'un créneau
  - renforcement général de la sécurité et de la fiabilité de l'application
- 
- 
- ## v0.33.0 : 2026-11-19
- - gestionnaires : retour de l'accès au laboratoire. Ils retrouvent le planning du laboratoire, la feuille de préparation, les demandes de matériel (qu'ils peuvent à nouveau accepter ou refuser), les protocoles et les notes du laboratoire. Ils ne sont plus limités à des zones et interviennent sur tout le planning de l'établissement ; l'administration reste réservée aux administrateurs
- - plannings général, laboratoire, consultation et personnel : la grille s'adapte à la hauteur de la fenêtre. Sur un grand écran ou en plein écran, elle s'agrandit et les créneaux affichent davantage d'informations ; sur un petit écran, elle garde une hauteur minimale et la page défile
- - planificateur d'examens : quand un autre compte vient de modifier l'examen, la saisie en cours est conservée et l'examen relu, au lieu de demander de recharger la page ; le bouton « Modifié par … » permet de reprendre la main dès que l'autre compte a terminé
- - planificateur d'examens : affichage sans défilement horizontal sur téléphone ; une saisie de surveillance placée entre deux plages est ramenée dans la plage la plus proche
- - épreuves à passages : un créneau qui disparaît indique sa cause et renvoie au bon réglage ; les convocations PDF sont désormais en A4 portrait
- - éditeur de schémas : le bouton « Enregistrer » reste toujours accessible, une fermeture demande confirmation quand des modifications ne sont pas enregistrées, palette plus lisible
- - import de protocoles avec schémas : une fenêtre récapitulative permet de choisir, avant tout enregistrement, d'ajouter ou de remplacer les schémas déjà présents ; un nouvel import du même fichier réutilise les schémas déjà importés
- - export PDF des protocoles plus rapide, textes des schémas mieux alignés dans le PDF
- - bibliothèque de schémas : le dessin du verre de montre est corrigé
- - application mobile : lien « Modifier sur le web » sur les protocoles dont on est l'auteur, sur tablette
- - corrections de bugs divers
+
+## v0.33.0 : 2026-11-19
+ - gestionnaires : accès retrouvé au laboratoire (planning, préparation, demandes de matériel, protocoles), sur tout l'établissement
+ - plannings : la grille s'adapte à la taille de l'écran et affiche davantage d'informations sur grand écran ou en plein écran
+ - planificateur d'examens : travail à plusieurs facilité, la saisie en cours n'est plus perdue quand un collègue modifie l'examen ; affichage adapté au téléphone
+ - épreuves à passages : explications plus claires et convocations PDF en A4 portrait
+ - éditeur de schémas : enregistrement toujours accessible, confirmation avant de fermer sans enregistrer, palette plus lisible
+ - import de protocoles avec schémas : choix d'ajouter ou de remplacer les schémas avant l'import
+ - export PDF des protocoles plus rapide
+ - application mobile : lien « Modifier sur le web » pour ses propres protocoles, sur tablette
+ - corrections et améliorations diverses
+
+## v0.33.1 : 2026-11-20
+ - demandes de matériel : changement de créneau possible sur le web et dans l'application mobile, y compris pour reporter une demande expirée sur un nouveau créneau
+ - mon planning : nouvelle icône des messages sur les créneaux avec une demande, qui signale les nouveaux messages ; la conversation s'ouvre par un clic droit
+ - mon planning : barre réorganisée, les boutons ne bougent plus d'une semaine à l'autre ; retour automatique au planning après une demande
+ - « Mes demandes » : demandes classées par date du créneau, sur le web et dans l'application mobile
+ - éditeur de schémas : copier-coller amélioré
+ - titres de protocole longs abrégés dans « Mes demandes » et le planning du laboratoire
+ - plus de demande possible sur un créneau déjà passé
+ - site d'information : présentation de ResaPC, documentation et démonstration en ligne, sur une adresse dédiée
+ - sécurité : la session est mieux protégée ; tout le monde devra se reconnecter une fois, sur le web comme dans l'application mobile
+ - corrections et améliorations diverses
